@@ -1,0 +1,78 @@
+body{
+    background-color: #89acad;
+    background-attachment: fixed;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+marquee{
+    behavior:alternate ;
+    direction: left to right;
+    background-color:#329ba8 ;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    text-decoration: underline;
+    border-radius: 44px;
+    background: linear-gradient(145deg, #2d8c97, #36a6b4);
+    box-shadow:  30px 30px 60px #21666f,
+             -30px -30px 60px #43d0e1;
+}
+.er{
+    border-radius: 32px;
+    background-attachment: fixed;
+    background-color: rgb(26, 92, 122);
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    width: 34%;
+    height: 82%; 
+    color: antiquewhite;
+}
+.cf{
+    margin-top: 8%;
+    width: 100%;
+    height: 0%;
+
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+img{
+    position: absolute;
+    top: 25%;
+}
+.rrr{
+    color: aliceblue;
+}
+footer{
+    padding: 50px;
+    background-color: rgb(65, 77, 80);
+    color: #98b9b9;
+    background: linear-gradient(145deg, #0a0808);
+    margin-top: 600px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    margin: 0.375rem;
+}
+.submit{
+    display: block;   
+    width: 90%;
+    background-color: rgb(93, 68, 167);
+    padding: 0.75rem;
+    text-align: center;
+    color: rgb(205, 217, 240);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    border-radius: 64px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #5788ea, #4972c5);
+    box-shadow: 12px 0.275rem 0.23px  #2e3838;   
+}
